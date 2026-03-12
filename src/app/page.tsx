@@ -82,22 +82,22 @@ export default function LandingPage() {
           tag="Täglich frisch"
           products={[
             {
-              id: "bauernbrot",              name: "Bauernbrot",              price: "€4,50",              variant: "Rustikales Mischbrot",              imageSrc: "http://img.b2bpic.net/free-photo/utensils-rope-near-bread_23-2147851914.jpg",              imageAlt: "Bauernbrot"
+              id: "bauernbrot",              name: "Bauernbrot",              price: "€4,50",              variant: "Rustikales Mischbrot",              imageSrc: "http://img.b2bpic.net/free-photo/utensils-rope-near-bread_23-2147851914.jpg?_wi=1",              imageAlt: "Bauernbrot"
             },
             {
-              id: "roggenbrot",              name: "Roggenbrot",              price: "€4,20",              variant: "Vollkorn Roggen",              imageSrc: "http://img.b2bpic.net/free-photo/utensils-rope-near-bread_23-2147851914.jpg",              imageAlt: "Roggenbrot"
+              id: "roggenbrot",              name: "Roggenbrot",              price: "€4,20",              variant: "Vollkorn Roggen",              imageSrc: "http://img.b2bpic.net/free-photo/utensils-rope-near-bread_23-2147851914.jpg?_wi=2",              imageAlt: "Roggenbrot"
             },
             {
-              id: "kaisersemmel",              name: "Kaiserbrötchen",              price: "€0,80",              variant: "6er Packung",              imageSrc: "http://img.b2bpic.net/free-photo/homemade-sausages-dough_114579-24537.jpg",              imageAlt: "Kaiserbrötchen"
+              id: "kaisersemmel",              name: "Kaiserbrötchen",              price: "€0,80",              variant: "6er Packung",              imageSrc: "http://img.b2bpic.net/free-photo/homemade-sausages-dough_114579-24537.jpg?_wi=1",              imageAlt: "Kaiserbrötchen"
             },
             {
-              id: "koernerbroetchen",              name: "Körnerbrötchen",              price: "€0,95",              variant: "Mit Leinsamen",              imageSrc: "http://img.b2bpic.net/free-photo/homemade-sausages-dough_114579-24537.jpg",              imageAlt: "Körnerbrötchen"
+              id: "koernerbroetchen",              name: "Körnerbrötchen",              price: "€0,95",              variant: "Mit Leinsamen",              imageSrc: "http://img.b2bpic.net/free-photo/homemade-sausages-dough_114579-24537.jpg?_wi=2",              imageAlt: "Körnerbrötchen"
             },
             {
-              id: "croissant",              name: "Croissant",              price: "€2,50",              variant: "Butter, Schoko",              imageSrc: "http://img.b2bpic.net/free-photo/baked-breads-buns-kept-shelf_1170-2304.jpg",              imageAlt: "Croissant"
+              id: "croissant",              name: "Croissant",              price: "€2,50",              variant: "Butter, Schoko",              imageSrc: "http://img.b2bpic.net/free-photo/baked-breads-buns-kept-shelf_1170-2304.jpg?_wi=1",              imageAlt: "Croissant"
             },
             {
-              id: "belagtes-broetchen",              name: "Belegte Brötchen",              price: "€5,00",              variant: "Käse, Schinken, Salat",              imageSrc: "http://img.b2bpic.net/free-photo/baked-breads-buns-kept-shelf_1170-2304.jpg",              imageAlt: "Belegte Brötchen"
+              id: "belagtes-broetchen",              name: "Belegte Brötchen",              price: "€5,00",              variant: "Käse, Schinken, Salat",              imageSrc: "http://img.b2bpic.net/free-photo/baked-breads-buns-kept-shelf_1170-2304.jpg?_wi=2",              imageAlt: "Belegte Brötchen"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -143,7 +143,7 @@ export default function LandingPage() {
             { value: "20+", title: "Jahre Erfahrung und Tradition" },
             { value: "Täglich", title: "Frische Zutaten, ehrliches Handwerk" }
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/best-friends-getting-some-street-food-outdoors_23-2149009644.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/best-friends-getting-some-street-food-outdoors_23-2149009644.jpg?_wi=1"
           imageAlt="Bäckerei Haas Geschäft"
           useInvertedBackground={false}
           mediaAnimation="slide-up"
@@ -162,7 +162,7 @@ export default function LandingPage() {
           ]}
           textarea={{ name: "message", placeholder: "Ihre Nachricht (optional)", rows: 4, required: false }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/best-friends-getting-some-street-food-outdoors_23-2149009644.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/best-friends-getting-some-street-food-outdoors_23-2149009644.jpg?_wi=2"
           imageAlt="Bäckerei Haas"
           mediaAnimation="slide-up"
           mediaPosition="right"
