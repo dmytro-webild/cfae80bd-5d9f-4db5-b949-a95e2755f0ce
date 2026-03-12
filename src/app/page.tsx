@@ -11,6 +11,11 @@ import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import { Heart, Sparkles, Star } from 'lucide-react';
 
 export default function LandingPage() {
+  const handleProductClick = (productId: string, productName: string) => {
+    console.log(`Product selected: ${productName} (ID: ${productId})`);
+    // Handle product selection - e.g., open product detail, add to cart, etc.
+  };
+
   return (
     <ThemeProvider
       defaultButtonVariant="directional-hover"
@@ -82,22 +87,22 @@ export default function LandingPage() {
           tag="Täglich frisch"
           products={[
             {
-              id: "bauernbrot",              name: "Bauernbrot",              price: "€4,50",              variant: "Rustikales Mischbrot",              imageSrc: "http://img.b2bpic.net/free-photo/utensils-rope-near-bread_23-2147851914.jpg?_wi=1",              imageAlt: "Bauernbrot"
+              id: "bauernbrot",              name: "Bauernbrot",              price: "€4,50",              variant: "Rustikales Mischbrot – Knuspriges, würziges Brot mit kräftiger Krume",              imageSrc: "http://img.b2bpic.net/free-photo/utensils-rope-near-bread_23-2147851914.jpg?_wi=1",              imageAlt: "Bauernbrot",              onProductClick: () => handleProductClick("bauernbrot", "Bauernbrot")
             },
             {
-              id: "roggenbrot",              name: "Roggenbrot",              price: "€4,20",              variant: "Vollkorn Roggen",              imageSrc: "http://img.b2bpic.net/free-photo/utensils-rope-near-bread_23-2147851914.jpg?_wi=2",              imageAlt: "Roggenbrot"
+              id: "roggenbrot",              name: "Roggenbrot",              price: "€4,20",              variant: "Vollkorn Roggen – Herzhafte Mischung mit Vollkornmehl und langer Teigführung",              imageSrc: "http://img.b2bpic.net/free-photo/utensils-rope-near-bread_23-2147851914.jpg?_wi=2",              imageAlt: "Roggenbrot",              onProductClick: () => handleProductClick("roggenbrot", "Roggenbrot")
             },
             {
-              id: "kaisersemmel",              name: "Kaiserbrötchen",              price: "€0,80",              variant: "6er Packung",              imageSrc: "http://img.b2bpic.net/free-photo/homemade-sausages-dough_114579-24537.jpg?_wi=1",              imageAlt: "Kaiserbrötchen"
+              id: "kaisersemmel",              name: "Kaiserbrötchen",              price: "€0,80",              variant: "6er Packung – Luftige, knusprige Brötchen mit charakteristischem Muster",              imageSrc: "http://img.b2bpic.net/free-photo/homemade-sausages-dough_114579-24537.jpg?_wi=1",              imageAlt: "Kaiserbrötchen",              onProductClick: () => handleProductClick("kaisersemmel", "Kaiserbrötchen")
             },
             {
-              id: "koernerbroetchen",              name: "Körnerbrötchen",              price: "€0,95",              variant: "Mit Leinsamen",              imageSrc: "http://img.b2bpic.net/free-photo/homemade-sausages-dough_114579-24537.jpg?_wi=2",              imageAlt: "Körnerbrötchen"
+              id: "koernerbroetchen",              name: "Körnerbrötchen",              price: "€0,95",              variant: "Mit Leinsamen – Vollwertig & nährstoffreich mit Körnermischung",              imageSrc: "http://img.b2bpic.net/free-photo/homemade-sausages-dough_114579-24537.jpg?_wi=2",              imageAlt: "Körnerbrötchen",              onProductClick: () => handleProductClick("koernerbroetchen", "Körnerbrötchen")
             },
             {
-              id: "croissant",              name: "Croissant",              price: "€2,50",              variant: "Butter, Schoko",              imageSrc: "http://img.b2bpic.net/free-photo/baked-breads-buns-kept-shelf_1170-2304.jpg?_wi=1",              imageAlt: "Croissant"
+              id: "croissant",              name: "Croissant",              price: "€2,50",              variant: "Butter, Schoko – Buttrig-zartes Blätterteiggebäck mit süßlichen Varianten",              imageSrc: "http://img.b2bpic.net/free-photo/baked-breads-buns-kept-shelf_1170-2304.jpg?_wi=1",              imageAlt: "Croissant",              onProductClick: () => handleProductClick("croissant", "Croissant")
             },
             {
-              id: "belagtes-broetchen",              name: "Belegte Brötchen",              price: "€5,00",              variant: "Käse, Schinken, Salat",              imageSrc: "http://img.b2bpic.net/free-photo/baked-breads-buns-kept-shelf_1170-2304.jpg?_wi=2",              imageAlt: "Belegte Brötchen"
+              id: "belagtes-broetchen",              name: "Belegte Brötchen",              price: "€5,00",              variant: "Käse, Schinken, Salat – Frisch belegt zum sofortigen Genießen",              imageSrc: "http://img.b2bpic.net/free-photo/baked-breads-buns-kept-shelf_1170-2304.jpg?_wi=2",              imageAlt: "Belegte Brötchen",              onProductClick: () => handleProductClick("belagtes-broetchen", "Belegte Brötchen")
             }
           ]}
           gridVariant="three-columns-all-equal-width"
